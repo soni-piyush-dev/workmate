@@ -1,0 +1,12 @@
+# Virtual environment: never upload
+venv/
+# Secrets: never upload
+.env
+# Python junk files
+__pycache__/
+*.pyc
+# Frontend files (for later)
+node_modules/
+dist/
+# Files made on deploy
+staticfiles/
